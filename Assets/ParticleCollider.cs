@@ -5,11 +5,24 @@ using UnityEngine;
 public class ParticleCollider : MonoBehaviour
 {
     public ParticleSystem particleSystem;
+
+    private int particleCount = 0;
     // Start is called before the first frame update
     //public On
     void OnEnable()
     {
         //GameController.Instance.playerCat.addParticleSystem(particleSystem);
+        StartCoroutine("EndGrab");
+    }
+
+    public IEnumerator EndGrab()
+    {
+        particleCount = 35;
+        yield return new WaitForSeconds(particleSystem.main.duration);
+        if(particleCount > 0)
+            GameController.Instance.gainPower(gameObject.tag == "LightningBolt", particleCount);
+
+        Debug.Log($"EndGrab: { particleCount} / { GameController.Instance.getPower(gameObject.tag == "LightningBolt") }");
     }
 
     /*public void OnParticleCollision(GameObject other)
@@ -17,7 +30,12 @@ public class ParticleCollider : MonoBehaviour
         List<ParticleSystem.Particle> particles = new List<ParticleSystem.Particle>();
         Debug.Log($"ParticleCollider OnParticleCollision");
     }*/
-    
+
+    public void OnParticleSystemStopped()
+    {
+        Debug.Log($"OnParticleSystemStopped");
+    }
+
     public void OnParticleTrigger()
     {
         List<ParticleSystem.Particle> particles = new List<ParticleSystem.Particle>();
@@ -31,7 +49,8 @@ public class ParticleCollider : MonoBehaviour
                 particles[i] = particle;
             }
             particleSystem.SetTriggerParticles(ParticleSystemTriggerEventType.Enter, particles);
-            
+
+            particleCount -= numEnter;
             GameController.Instance.gainPower(gameObject.tag == "LightningBolt", numEnter);
         }
     }

@@ -46,7 +46,8 @@ public class ActionAttack : MonoBehaviour
         playerSource.firstPersonController.playerCanMove = true;
         playerSource.firstPersonController.cameraCanMove = true;
 
-        GameController­.Instance.audioSource.PlayOneShot(audioSwipe);
+        if (timeStart > 0 && (Time.realtimeSinceStartup - timeStart) > 0.25f)
+            GameController­.Instance.audioSource.PlayOneShot(audioSwipe);
 
         RaycastHit hit = GameHud.Instance.getLastRaycast();
         if (!hitValid(hit))

@@ -53,6 +53,7 @@ public class FlowerPot : MonoBehaviour
                 body.velocity = new Vector3(0, body.velocity.y, 0);
             GameController.Instance.addPlantCounter();
             GameController.Instance.spawner.spawnAt("Madness", this.transform.position, Vector3.up, GameController.Instance.transform);
+            GameController.Instance.gainPower(false, 10);
 
             this.transform.eulerAngles = Vector3.zero;
         }

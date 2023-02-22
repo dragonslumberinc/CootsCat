@@ -14,5 +14,6 @@ public class DoorDestroy : MonoBehaviour
         collider.enabled = false;
         gameObject.SetActive(false);
         GameController.Instance.spawner.spawnAt("DoorShards", pos, normalUp, this.transform.parent);
+        GameController.Instance.gainPower(false, 10);
     }
 }
