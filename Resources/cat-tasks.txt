@@ -1,0 +1,327 @@
+Gameplay
+Originality
+Presentation
+Theme
+
+--
+
+Everything is Coots
+
+Cards against humanity
+Cat's past life
+
+
+
+
+
+
+
+
+* SUNDAY *
+
+
+Poster: QTCinderella
+Add water squirt from bidet
+Destroy the toilet
+Chess: 
+
+
+
+X YSA VFX (Laser)
+X War FX (Fire)
+
+* On scratch human, talk
+* On laser human, talk
+* End Condition
+* Main Menu
+	* Audio On/Off, Quit
+* Pause
+	* Audio On/Off, Resume, Quit
+
+
+
+
+* Objectives
+	X Break Chess / 
+	* 5 black cards
+	* 5 white cards
+	* Eat
+	* Break Pots
+	* Break Birds
+	X Destroy painting
+
+* Wine bottle
+
+
+* Break Blender
+	* Generate Madness
+	* Break in shards
+* Black card
+	* Shouldn't generate fire
+	* Generate pwoer
+	
+* TV
+* Computer
+
+
+
+* Actions generate resources (power, madness)
+X Display gained power
+X tutorial for controls
+* Quest display
+* Credits
+X Logo
+* FoodBowl
+* Food Bag
+
+-0.7
+2.5,0.8
+
+
+
+
+
+
+* Thicker flood collider
+
+Complete EXplore the house on break stuff
+Complete break stuff on Hunger
+? On End food, Power
+On strong paw swipe, breakPot
+
+
+* Laser drawing (Smily)
+* Shatter and Madness
+* Look in fridge
+* Look at cat near TV
+
+
+
+* LMB
+
+
+X GameController > volume 0.35
+X Madness 250
+
+X Bathroom door
+X Small room under bed
+* Something breaks at start of game?
+* SFX
+	? Destroy Door / door-break
+	? Eat / cat-eating
+	? TV
+	? Computer
+	? Move Possess / whoosh.ogg
+	? Swipe / paw-whoosh
+	? Hit
+	? Click
+	? Lud's Fucks
+? Update Credits
+? Add credits in ending
+	* And Main Menu and Pause
+X Review Lightning SFX
+X Put food in bowl appeared twice
+X Madness 300
+X Purring on finale
+
+
+https://dragonslumber.itch.io/everything-is-coots
+
+
+Iron Man
+Spiderman
+She-Hulk
+Black Panther
+Captain Marvel
+
+
+
+
+
+Pause
+	
+
+	* LMB on bowl to eat
+	* Swipe visual
+	* Feedback, human on couch until madness 2
+	? Break Blender
+	* Super strength, stronger faster, power multiplier, range
+	* Set quests
+		* Cat Quest
+			Explore the house
+			You're hungry
+			Get your Master to sit down take care of you
+		Human Quest
+			Feed the cat
+			Sit on the couch and pet the cat
+	* SFX
+		? Chess pieces
+		X Open door
+		X Open fridge
+		* Mouseover button
+		* Click button
+		? Gain Madness
+		* Gain Lightning bolt
+		* More cat sounds
+	* VFX Paw swipe
+		* Charge and shake
+		* Swipe in middle
+	* When gain flying
+		* Display flying tutorial
+			* Raise with Space
+			* Lower with Ctrl
+	? Madness music
+	? Madness VFX
+		* Feed Coots
+		-
+		* Open the doors
+		-
+		* The living room couch
+		* Coots
+
+15-34
+
+
+* https://freesound.org/people/Sunejackie/sounds/542394/
+https://freesound.org/people/TheMaxMan/sounds/110820/
+(Piano) D-Eb-Bb-A
+
+
+
+Madness
+	Music
+	Visual scratches
+* Find ludwig soundbytes
+	* Catchphrase is boys
+	* Fuck
+	* I can't
+
+
+
+* It wasn't clear what I was suppose to do or what I can do. 
+* There is really only one cat audio that consistently plays. 
+* I stick to every surface, particularly the table chairs. 
+
+		
+
+
+
+
+
+
+* 6 collectibles: Possession
+
+* Cat Power Level
+	Level 1: Charge Attack (Distance, Strength) (2 cards)
+	Level 2: Eye laser
+	Level 3: Flying
+* Human Madness Level
+	Level 1: Possession Cat Food
+	Level 2: Doors
+	Level 3: Finish
+* Human
+	* Get food
+	* Place food
+* Human sit
+
+* Goals (human and cat)
+	* Cat, Power Level
+* Feed the cat
+
+
+
+* Music
+	* Cat
+	* Human
+	
+
+
+
+
+Fun things
+	Throw something out of the window, break glass
+	X Painting of cat on the wall
+	Remote control turns on a tv, then changes channels
+
+Cats are colorblind for greens and reds, but see blues and yellos
+
+Tasks
+	Feed the cat
+	Pet the cat
+	Put on the cat ears
+	Change the painting for ca
+	Over time, screen goes crazy
+
+
+On Jump on platform, Cat_01.wav
+
+Missing SFX
+	* Shattered pot
+	? Fire
+	? Laser
+	* Electricity
+	* Click Button
+
+Missing VFX
+	X Fire
+	X Sparks
+	* Pot Shards
+	* Electricity
+
+
+
+
+
+
+<b>Produced, Programmed and Developed by:</b>
+Kevin Giguere
+
+<b>Testers:</b>
+BluePinStudio
+Scat_man_2
+
+<b>Developed for Ludwig Jam 2023</b>
+https://itch.io/jam/ludwig-2023
+
+
+<b>** Assets **</b>
+Camera Effect: 
+https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/urp-simple-camera-and-post-effects-216928#reviews
+Modular: https://assetstore.unity.com/packages/3d/characters/modular-first-person-controller-189884
+Human: https://assetstore.unity.com/packages/3d/characters/humanoids/adventurer-blake-158728
+Cat: https://assetstore.unity.com/packages/3d/characters/animals/mammals/cartoon-cat-70180
+Visuals: https://assetstore.unity.com/packages/3d/props/interior/interior-props-pack-asset-86452
+Red Hollow Skill VFX: https://assetstore.unity.com/packages/vfx/red-hollow-skill-vfx-212627
+War FX: https://assetstore.unity.com/packages/vfx/particles/war-fx-5669#reviews
+https://www.freepik.com/free-vector/set-different-plants-pots-isolated-white-background_13225513.htm
+https://assetstore.unity.com/packages/3d/environments/apartment-kit-124055
+https://assetstore.unity.com/packages/2d/textures-materials/sky/3d-skybox-pro-swiss-freebies-148724#reviews
+UI: https://assetstore.unity.com/packages/2d/gui/icons/2d-casual-ui-hd-82080
+Paw: https://en.wikipedia.org/wiki/File:Paw-print.svg
+
+
+<b>** FONTS **</b>
+https://www.dafont.com/sigilos-de-conhecimento.font
+https://www.dafont.com/chloe-3.font
+https://www.dafont.com/honey-silk.font
+
+
+<b>** SFX **</b>
+https://freesound.org/people/craigsmith/sounds/675897/
+https://freesound.org/people/Kim_Kimovna/sounds/563746/
+https://freesound.org/people/skymary/sounds/412016/
+https://freesound.org/people/Zabuhailo/sounds/146965/
+https://freesound.org/people/niwki/sounds/162822/
+https://freesound.org/people/sonically_sound/sounds/612875/
+https://freesound.org/people/TheMaxMan/sounds/110820/
+https://freesound.org/people/gronnie/sounds/563175/
+https://freesound.org/people/kevinkace/sounds/66769/
+https://freesound.org/people/niwki/sounds/162822/
+
+
+
+
+** Music **
+https://pixabay.com/music/beats-lofi-study-112191/
+
+https://pixabay.com/music/ambient-out-of-the-dark-creepy-and-scary-voices-9654/
